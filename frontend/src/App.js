@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import StrategyToggle from './components/StrategyToggle';
-import PostList from './components/PostList/PostList';
+import PostList from './components/PostList';
 
 function App() {
   const [strategy, setStrategy] = useState('paging');
